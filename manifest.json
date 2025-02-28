@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "X.com Post Like Percentage",
+    "version": "1.0",
+    "description": "Displays the percentage of people who have viewed and liked a post on X.com when a post is clicked.",
+    "permissions": [
+      "activeTab"
+    ],
+    "host_permissions": [
+      "https://x.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://x.com/*"],
+        "js": ["content.js"],
+        "css": ["style.css"]
+      }
+    ]
+  }
