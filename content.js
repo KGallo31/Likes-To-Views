@@ -41,10 +41,8 @@ function addNumberNextToViews(numsToDisplay) {
   
   // Create a new span element with the number
   const newNumberSpan = document.createElement('span');
-  newNumberSpan.className = 'css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3 r-1b43r93 r-1cwl3u0 view-to-likes-extension';
-  newNumberSpan.style.marginLeft = '8px';
-  newNumberSpan.style.color = '#1DA1F2'; // Twitter blue color
-  newNumberSpan.textContent = finalDisplayValue; // The number you want to display
+  newNumberSpan.className = 'view-to-likes-extension r-37j5jr';
+  newNumberSpan.textContent = "Likes to Views: " + finalDisplayValue; // The number you want to display
   
   // Insert the new element after the views container
   viewsContainer.parentNode.insertBefore(newNumberSpan, viewsContainer.nextSibling);
