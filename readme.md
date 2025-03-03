@@ -1,10 +1,11 @@
-# X Ratio - Likes to Views Ratio for X.com
+# Social Pulse - Likes to Views Ratio for Social Sites
 
 ## Overview
 
-X Ratio is a simple Chrome extension that displays the likes-to-views ratio for posts on X.com (formerly Twitter). This extension helps you quickly assess the engagement level of posts by showing the percentage of viewers who liked the content.
+Social Pulse is a simple Chrome extension that displays the likes-to-views ratio for posts. This extension helps you quickly assess the engagement level of posts by showing the percentage of viewers who liked the content.
 
 ## Features
+
 - Displays likes-to-views ratio as a percentage next to the view count
 
 - Works on individual post pages on X.com
